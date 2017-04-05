@@ -6,11 +6,11 @@ require 'fastlane/plugin/increment_version_code_android/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-increment_version_code_android'
   spec.version       = Fastlane::IncrementVersionCodeAndroid::VERSION
-  spec.author        = %q{Jems}
-  spec.email         = %q{jeremy.toudic@gmail.com}
+  spec.author        = %q{SimoneCorsini}
+  spec.email         = %q{s.corsini89@gmail.com}
 
   spec.summary       = %q{Increment the version code of your android project, supporting different product flavors.}
-  spec.homepage      = "https://github.com/Jems22/fastlane-plugin-increment_version_code"
+  spec.homepage      = "https://github.com/SimoneCorsini/fastlane-plugin-increment_version_code_android"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
