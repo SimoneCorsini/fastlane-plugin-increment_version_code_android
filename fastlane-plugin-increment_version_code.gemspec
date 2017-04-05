@@ -1,16 +1,14 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/increment_version_code/version'
+require 'fastlane/plugin/increment_version_code_android/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-increment_version_code'
-  spec.version       = Fastlane::IncrementVersionCode::VERSION
+  spec.name          = 'fastlane-plugin-increment_version_code_android'
+  spec.version       = Fastlane::IncrementVersionCodeAndroid::VERSION
   spec.author        = %q{Jems}
   spec.email         = %q{jeremy.toudic@gmail.com}
-
-  spec.summary       = %q{Increment the version code of your android project.}
-  # spec.homepage      = "https://github.com/Jems22/fastlane-plugin-increment_version_code"
+  spec.summary       = %q{Increment the version code of your android project, supporting different flavors.}
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
